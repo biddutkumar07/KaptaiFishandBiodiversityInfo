@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishDiseseList1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। পুকুরের আভ্যন্তরীণ জীবাণু ধ্বংশ করা। যেমনঃ পুকুর শুকানো, চুন প্রয়োগ এবং পরিবেশ বান্ধব জীবাণুনাশক  ব্যবহার ইত্যাদি। "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। পুকুরে বহিরাগত জীবাণু প্রবেশ রোধ করা। যেমনঃ পুকুরের পাড় বাঁধা, পুকুরের চারপাশে বেড়া দেওয়া, বহিরাগত প্রাণীর প্রবেশ রোধ, জালসহ বিভিন্ন সামগ্রী ব্যবহারের পূর্বে শুকানো এবং জীবাণুমুক্ত করা ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="2dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। খামারের উন্নত ব্যবস্থাপনার মাধ্যমে মাছের রোগ প্রতিরোধ ক্ষমতা বৃদ্ধি করা। যেমনঃ পুকুর প্রস্তুতি থেকে মাছ ধরা  পর্যন্ত প্রতিটি ধাপে উন্নত ব্যবস্থাপনা, সুস্থ ও সবল পোনা নির্বাচন, সঠিক ঘনত্বে পোনা মজুদ এবং সঠিক উপায়ে পরিমিত সুষম খাদ্য প্রয়োগ ইত্যাদি ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। খামারের নিয়মিত পরিচর্যা ও পর্যবেক্ষণ করা। যেমনঃ নিয়মিত স্বাস্থ্য পরীক্ষা ।\n\n\n "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

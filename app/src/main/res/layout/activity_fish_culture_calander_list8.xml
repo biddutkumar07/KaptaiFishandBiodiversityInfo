@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishCultureCalanderList3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="পোনা মজুদ  পূর্ববর্তী  পরিচর্যা "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। মিশ্র চাষের  জন্য ৪০-৬০ শতাংশ আয়তনের পুকুরের নির্বাচন করতে হবে, যেখানে বছরে কমপক্ষে ৮-৯ মাস ৪-৬ ফুট পানি থাকে ।  "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। পুকুর থেকে রাক্ষুসে ও অবাঞ্চিত মাছ দুর করার জন্য মিহি ফাঁসের জাল বার বার টেনে এদের সরাতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। রাক্ষুসে ও অবাঞ্চিত মাছ দুর করার পর শতাংশে ১ কেজি চুন, ৩-৪ দিন পর ৬-৮ কেজি পঁচা গোবর, ৫০ গ্রাম ইউরিয়া ও ১০০ গ্রাম টিএসপি পানিতে গুলিয়ে ছিটিয়ে দিতে হয়ে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। সার প্রয়োগের ৩-৫ দিন পর পুকুরের পানি সবুজাভ হলে পোনা মজুদ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পোনা মজুদ "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। প্রতি শতাংশে ৫-৭ সে.মি. আকারের ১০০ টি পাবদা, ১০-১২ সে.মি. আকারের ৫টি কাতলা, ১০টি রুই, ১২টি মৃগেল ও ২টি গ্রাস কার্প এর সুস্থ ও সবল পোনা মজুদ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পোনা মজুদ পরবর্তী পরিচর্যা "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। পোনা ছাড়ার পরের দিন থেকে চালের কুঁড়া (৪০%), গমের ভূষি (২৫%), সরিষার খৈল (২০%) ও ফিসমিল (১৫%) মাছের দেহ ওজনের শতকরা ৩-৮ গ্রাম হারে দেয়া যেতে পারে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। পোনা মজুদের পর ১৫ দিন অন্তর শতাংশ প্রতি ৫০গ্রাম ইউরিয়া ও ১০০গ্রাম টিএসপি এবং  ৪ কেজি গোবর পর্যায়ক্রমে প্রয়োগ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। পানির স্বচ্ছতা ২০ সে.মি. এর মধ্যে সীমিত থাকলে সার প্রয়োগ বন্ধ রাখতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। পোনা মজুদের ৭-৮ মাস পর সমস্ত মাছ আহরণ করার ব্যবস্থা নিতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৫। মিশ্র চাষ ব্যবস্থাপনায় পাবদা মাছ, কাতলা, রুই, মৃগেল ও গ্রাসকার্প যথাক্রমে ৪০-৫০, ৮০০-১০০০, ৫০০-৭০০ ও ১৪০০-১৬০০ গ্রাম ওজনের হয়ে থাকে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৬। মাছ ধরার জন্যে প্রথমে বেড় জাল এবং পরে পুকুর শুকিয়ে সমস্ত মাছ ধরার ব্যবস্থা নিতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="60dp"
+            android:textColor="#000"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

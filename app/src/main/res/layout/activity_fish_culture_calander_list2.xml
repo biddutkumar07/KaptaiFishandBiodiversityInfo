@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishCultureCalanderList2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="লাভজনক মাছ চাষে নিয়মিত করণীয়  "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। পুকুর প্রস্তুতির সময় মাটি ও পানির পি এইচ অনুযায়ী চুন, জিওলাইট ও সার প্রয়োগ । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। প্রোবায়োটিক্স ব্যবহারের মাধ্যমে পুকুরের মাটি ও পানির পরিবেশ উন্নত ও ক্ষতিকর  জীবানুমুক্ত রাখা ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। খাদ্যের সাথে এনজাইম ও গ্রোথপ্রোমোটর প্রয়োগ কওে মাছের বৃদ্ধি ত্বরানিত করা ও রোগ প্রতিরোধ ক্ষমতা বৃদ্ধি করা ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। মাছের বৃদ্ধি স্বাস্থ্য পরীক্ষা করা । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৫। মাটি ও পানির গুনাগুন পরীক্ষা করে প্রয়োজনীয় ব্যবস্থা গ্রহন । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৬। অক্সিজেনের উৎপাদন ও সরবরাহ অব্যাহত রাখা । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৭। পুকুরকে সবসময় ক্ষতিকর গ্যাসমুক্ত রাখা । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৮। অতিরিক্ত শ্যাওলা দূর করা । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৯। চাষকালীন সমস্যা সমূহ লিপিবদ্ধ করা ও নিয়মিত মৎস্য বিশেষজ্ঞদের সাথে পরামর্শ করে প্রয়োজনীয় ব্যবস্থা গ্রহন করা । \n\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"
+            android:layout_marginBottom="30dp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishDiseseList3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:id="@+id/image"
+            android:src="@drawable/tail_rot_disease"
+            android:layout_gravity="center"
+            android:layout_width="352dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="রোগাক্রান্ত মাছের ছবি "
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="রোগের লক্ষণ সমূহ "
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। লেজ ও পাখনার পর্দা ছিঁড়ে যায় বা ক্ষয় হয়, রং ফ্যাকাশে হয়।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। মাছে ব্যাপক মড়ক দেখা দেয় ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="প্রতিকার বা নিয়ন্ত্রণ"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। প্রতি কেজি খাবারের সাথে ১-২ গ্রাম অক্সিটেট্রাসাইক্লিন মিশিয়ে ৫-৭ দিন খাওয়াতে হবে।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। পুকুরে প্রতি শতাংশে ২৫০ গ্রাম হারে চুর ও ২৫০ গ্রাম হারে লবন প্রয়োগ করা যেতে পারে । \n\n\n"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="50dp"
+            android:textColor="#263238"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

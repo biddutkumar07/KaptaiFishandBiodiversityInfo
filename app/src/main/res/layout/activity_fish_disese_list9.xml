@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishDiseseList9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:src="@drawable/shingi_fish_bacteria_disease"
+            android:layout_width="352dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="রোগাক্রান্ত মাছের ছবি "
+            android:textSize="26sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="রোগের লক্ষণ সমূহ "
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aeromonas spp &amp; Pseudomonas spp. ব্যাকটেরিয়া দ্বারা সাধারণত আক্রান্ত হয়।"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। আক্রান্ত মাছ খাদ্যগ্রহণে অনীহা প্রদর্শন করে ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। মাছের শরীর সাদাটে বর্ণ ধারণ করে এবং লেজে পঁচন ধরে । "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। সাদাটে দাগ ক্রমশঃ বিস্তৃত হয় ও আক্রান্ত অংশ ক্রমে ক্ষয় হয়ে যায় ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। মাছের শরীরে শ্লেষ্মার পরিমাণ কমে যায় ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৫। মাছ ভারসাম্যহীনভাবে মাঝে মাঝে ঝাঁকুন দিয়ে চলাফেরা করে ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৬। প্রতি কেজি খাবারের সাথে ১-৭ দিনের মধ্যে ব্যাপক মড়ক দেখা দেয় ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="প্রতিকার বা নিয়ন্ত্রণ"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। পানি পরিবর্তন ও সঠিক ঘনত্বে শিং মাছ চাষ করতে হবে ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। শতাংশে ৩০০-৫০০ গ্রাম হারে চুন ও লবন প্রয়োগ ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। শতাংশে প্রতি ৩ ফুট গভীরতার জন্য ৫-৭ গ্রাম হারে সিপ্রোফ্লোক্সাসিন ৩-৪ দিন প্রয়োগ  ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। প্রতি কেজি খাবারের সাথে ১-২ গ্রাম সিপ্রোফ্লোক্সাসিন মিশিয়ে ৫-৭ দিন খাওয়াতে হবে । \n\n\n"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="50dp"
+            android:textColor="#263238"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

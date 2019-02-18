@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishCultureCalanderList3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="পোনা মজুদ  পূর্ববর্তী  পরিচর্যা "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। পুকুরের পাড় ভাঙ্গা থাকলে মেরামত করে বা বেঁধে মজবুত করতে হবে  । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। শিং মাছের মিশ্র চাষের জন্য ২০-৬০ শতাংশ আয়তনের পুকুর নির্বাচন করা যেতে পারে। তবে এর চেয়ে ছোট বা বড় পুকুরে চাষ করা যায়। বছরে কমপক্ষে ৭-৮ মাস ১-১.৫ মিটার পানি থাকে এরকম পুকুর নির্বাচন করতে হবে  । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। শিং মাছ চাষের পুকুর অবশ্যই শুকাতে হবে। শুকানোর পর তলদেশে পঁচা কাদা অপসারণ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। পুকুরের তলদেশ  ৭ দিন রৌদ্রে শুকাতে হবে। পরে তলা থেকে ক্ষতিকারক জীবাণু ধ্বংশ করার জন্য প্রতি শতাংশে ১৫-২০ গ্রাম ব্লিচিং পাউডার ভালভাবে ছিটিয়ে দিতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৫। ব্লিচিং পাউডার প্রয়োগের ৩-৫ দিন পর পুকুর বিশুদ্ধ পানি দিয়ে ১.০ মিটার পর্যন্ত পূর্ণ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৬। পানি পূর্ণ করার পর শতাংশ প্রতি ১.০ কেজি কলিচুন পানিতে মিশিয়ে দ্রবণ তৈরি করে পুকুরে প্রয়োগ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৭। চুন প্রয়োগের ৩ দিন পর পোনা মজুদের ব্যবস্থা নিতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পোনা মজুদ "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। শিং মাছের মিশ্র চাষ ব্যবস্থাপনায় প্রতি শতাংশে ৭-৮ সে. মি. সাইজের ৫০০ টি সুস্থ সবল ও গুণগতমান সম্পন্ন শিং মাছের পোনা প্রস্তুতকৃত পুকুরে মজুদ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। শিং মাছের পোনা মজুদের ১ মাস পরে প্রতি শতাংশে ৭-৮ সে.মি. সাইজের ৫০ টি মাগুর মাছ, ৫-৬ সে.মি. সাইজের ১০০ টি মনোসেক্স তেলাপিয়া, ২৫ টি রাজপুঁটি এবং ৮-১০ সে.মি. সাইজের ৫ টি সিলভার কার্প সহ মোট ৬৮০ টি পোনা মজুদ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। পোনা ছাড়ার পরের দিন থেকে প্রাণিজ প্রোটিন (৩০%) সমৃদ্ধ সম্পূরক খাদ্য মাছের দেহ ওজনের ৫-১৫% হিসেবে প্রয়োগ করা যেতে পারে। উল্লেখ্য, শুধুমাত্র শিং মাছের জন্যই সম্পূরক খাদ্য সরবরাহ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পোনা মজুদ পরবর্তী পরিচর্যা "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। প্রতি ১৫ দিন পরপর শিং মাছের নমুনায়ণ করে সম্পূরক খাদ্যের পরিমাণ নির্ধারণ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। পোনা মজুদের এক মাস পর হতে প্রতি ১৫ দিন অন্তর শতাংশ প্রতি ১০০ গ্রাম চুন ও ৪০০ গ্রাম লবন প্রয়োগ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। শিং মাছের পুকুরে জাল দিয়ে বেস্টনী দিতে হবে। বর্ষায় মাছ বের হয়ে যেতে না পারে সে জন্য বেস্টনী দিলে ঝুঁকি কম থাকে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। পোনা মজুদের ছয় মাস পর মাছ আহরণের ব্যবস্থা নিতে হবে। প্রথমে বেড় জাল দিয়ে মনোসেক্স গিফট তেলাপিয়া, রাজপুঁটি ও সিলভার কার্প আহরণ করতে হবে। অতঃপর পুকুর শুকিয়ে শিং ও মাগুর মাছ আহরণের ব্যবস্থা নিতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="60dp"
+            android:textColor="#000"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

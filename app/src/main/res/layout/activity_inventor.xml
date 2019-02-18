@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.biddutkarmakar.kaptainewcorrection.Inventor">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/text12n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" উদ্ভাবক "
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="320dp"
+            android:layout_height="350dp"
+            android:layout_marginBottom="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/text12n"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/udvaboknew"/>
+
+        <TextView
+            android:id="@+id/text1n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" এম এ বাশার "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/image"/>
+
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1n"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সার্বিক সহযোগিতায়  "
+            android:textSize="16sp"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/webView1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#FF1744"/>
+
+        <TextView
+            android:id="@+id/text2n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ড.ইয়াহিয়া মাদমুদ\nমহাপরিচালক\nবাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট ।  "
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_below="@+id/text2"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="50dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="মাছ চাষ ও লেক সম্পর্কিত\nকারিগরী পরামর্শের জন্য যোগাযোগ"
+            android:id="@+id/text3"
+            android:textSize="16sp"
+            android:textColor="#FF1744"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/text2n"/>
+
+        <TextView
+            android:id="@+id/text3n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3"
+            android:text="উপকেন্দ্র প্রধান\nবাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট\nনদী উপকেন্দ্র, রাঙ্গামাটি-৪৫০০\n"
+            android:layout_marginLeft="50dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"/>
+
+  <!--      <Button
+            android:id="@+id/buttonOffice"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@drawable/officephone"
+            android:layout_below="@+id/text3"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <Button
+            android:id="@+id/buttonPhone"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@drawable/ph"
+            android:layout_below="@+id/buttonOffice"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <Button
+            android:id="@+id/sendEmail"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@drawable/mail"
+            android:layout_below="@+id/buttonPhone"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>  !-->
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3n"
+            android:text=" Adviced By "
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textColor="#2196F3"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text4"
+            android:textSize="18sp"
+            android:textColor="#009999"
+            android:text=" Abul Fazal Mohammad Zainul Abadin \n Assistant Professor, Dept. Of ICE, PUST  "
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text5"
+            android:text=" Developed By "
+            android:layout_marginTop="13dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textColor="#00E676"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text6"
+            android:textSize="15sp"
+            android:textColor="#050707"
+            android:text=" Md. Alauddin \n Coder &amp; Developer \n Dept. Of ICE, PUST \n Email: alauddin.setu@gmail.com  "
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text7"
+            android:textSize="15sp"
+            android:textColor="#050707"
+            android:text=" Sauvik Ray \n Graphics Designer \n Dept. Of ICE, PUST \n Email: sauvikray001@gmail.com  "
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text8"
+            android:textSize="15sp"
+            android:textColor="#050707"
+            android:text=" Biddut Kumar \n Coder &amp; Xml Designer \n Dept. Of ICE, PUST \n Email: biddut.pust.ice3rdbatch@gmail.com  "
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text9"
+            android:textSize="15sp"
+            android:textColor="#050707"
+            android:text=" Md. Mamun \n Xml Designer &amp; Developer\n Dept. Of ICE, PUST \n Email: abeedmukid@gmail.com \n "
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

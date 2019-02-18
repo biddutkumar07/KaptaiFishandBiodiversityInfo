@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishDiseseList8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:src="@drawable/koi_ulcer_disease"
+            android:layout_width="352dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="রোগাক্রান্ত মাছের ছবি "
+            android:textSize="26sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="রোগের লক্ষণ সমূহ "
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। খাবারে অনীহা দেখা দেয় এবং লেজ ও শরীরে বড় ঘা হয় ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। ক্রমান্বয়ে লাল দাগের স্থলে গভীর ক্ষতের সৃষ্টি হয় ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। প্রথমে অল্প সংখ্যক মাছ মারা যায় পরবর্র্তীতে ব্যাপক মড়ক হয় ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="প্রতিকার বা নিয়ন্ত্রণ"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। সঠিক ঘনত্বে কৈ মাছ চাষ করতে হবে ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। শীতের শুরুতে শতাংশে ৩০০ গ্রাম হারে জেভি জিওলাইট প্রয়োগ করতে হবে ও পুকুরে পানি পরিবর্তন করে  ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। অতিরিক্ত উদ্ভিদ কণা দূর করতে হবে ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। প্রতি কেজি খাবারের সাথে১-২ গ্রাম অক্সিটেট্রাসাইক্লিন মিশিয়ে ৫-৭ দিন খাওয়াতে হবে।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৫। খামারে দীর্ঘদিন যাবৎ অক্সিজেন স্বল্পতা যেন বিরাজ না করে, সেদিকে দৃষ্টি দিতে হবে ও হররা টেনে গ্যাস বের করেদিতে হবে । \n\n\n"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="50dp"
+            android:textColor="#263238"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

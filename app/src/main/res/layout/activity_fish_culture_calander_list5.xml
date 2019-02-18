@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishCultureCalanderList5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="পাহাড়ী ঘোনা প্রস্তুত "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। পাহাড়ী ঘোনার আয়তন ১৫-৩০ শতাংশ এবং গভীরতা ০.৭০-১.৫ মিটার হলে ভাল হয় । "
+            android:textSize="15sp"
+            android:layout_gravity=""
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। প্রস্তুতির সময় ঘোনা ভালভাবে ৫-৭ দিন শুকিয়ে নিতে হয় । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। পাহাড়ী ঘোনার তলদেশ মাটি কেটে সমতল ও গাছের গুড়ি থাকলে তা পরিস্কার করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। অত:পর প্রতি শতাংশে ১.০ কেজি হারে চুন প্রয়োগ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৫। চুন প্রয়োগের ৩ দিন পর, ঘোনা ৩-৪ ফুট বিশুদ্ধ পানি দিয়ে পূর্ণ করতে হয় । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৬। তারপর প্রতি শতাংশে ৪-৫ কেজি গোবর দিতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৭। চুন প্রয়োগের ৩ দিন পর প্রাকৃতিক খাবার জন্মানোর জন্য শতাংশে ১০০ গ্রাম ইউরিয়া ও ৫০ গ্রাম টিএসপি সার প্রয়োগ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৮। হাঁস পোকা নিধনের জন্য প্রতি শতাংশে ১০ মি. লি. সুমিথিয়ন রেণু ছাড়ার ২৪ ঘন্টা পূর্বে প্রয়োগ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" রেণু পোনা মজুদ "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। প্রস্তুতকৃত পাহাড়ী ঘোনায় প্রতি শতাংশে ১০ গ্রাম বা ৭-৮ হাজার টি কার্প জাতীয় রেণু পোনা ছাড়া যায় । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" মজুদ পরবর্তী খাদ্য ব্যবস্থাপনা "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ডিমের কুসুম (Yolk sac) নি:শেষ না হওয়া পর্যন্ত পোনা খাদ্য গ্রহণ করে না। ৪-৫ দিন বয়সে পোনা প্রথম খাওয়া শুরু করে।\nঅধিক ঘনত্বে পোনা মজুদ করলে প্রাকৃতিক খাদ্যের পাশাপাশি সম্পূর্রক খাদ্য সরবরাহ করা প্রয়োজন। নিচের সারণীতে রেণু পোনার বয়স অনুযায়ী খাদ্য প্রয়োগ করা যেতে পারে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"/>
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="275dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button9" />
+
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পোনা আহরণ "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ঘোনায় সাধারণতঃ রেণু পোনা মজুদের ২ মাস পর থেকে বিক্রয় করার মত পোনা ধরা শুরু হয় যা ৩-৪ মাস পর্যন্ত চলতে পারে। পোনা মাছ সাধারণতঃ মশারীর কাপড় দ্বারা তৈরী জাল টেনে আহরণ হয় করলে ভাল হয়। পরে ঘোনা শুকিয়ে সমস্ত পোনা মাছ ধরার ব্যবস্থা নিতে হয় । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="60dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.biddutkarmakar.kaptainewcorrection.FishResource">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পুকুর "
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সদর-  ৪৮ টি (২৬ হেঃ)\nকাপ্তাই- ২৪৩ টি (১৫.৫২হেঃ)\nবিলাইছড়ি- ২৯ টি (৫.৪০হেঃ)\nরাজস্থলী- ৯৯ টি (১০.৬২হেঃ)\nকাউখালী- ২০৭ টি (২২.৮১হেঃ)\nনানিয়ারচর- ২৮ টি (৫.২হেঃ)\nজুড়াছড়ি- ১০২ টি (৭.৮৩হেঃ)\nবরকল- ৬ টি (০.৪০হেঃ)\nলংগদু- ১২ টি (৫.২০হেঃ)\nবাঘাইছড়ি- ৪৬৯ টি (২৩৪.৮৯হেঃ) \n\n  "
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" ক্রীক"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সদর- ৯৩ (৮২.২৮ হেঃ )\nকাপ্তাই- ১০ (৬.০ হেঃ )\nবিলাইছড়ি- ৩ (২.০ হেঃ )\nরাজস্থলী- ১৮ (৯.০ হেঃ )\nকাউখালী- ৪৩ (২৫.৭৫ হেঃ )\nনানিয়ারচর- ৫৪ (৬৩.২৫ হেঃ )\nজুরাছড়ি- ৭৭ (৭০.১১ হেঃ )\nবরকল- ২৪ (১২.১২ হেঃ )\nলংগদু- ৩৪৫ (২৭৫ হেঃ )\nবাঘাইছড়ি- ৪২ (৬৭.০৫ হেঃ ) \n\n "
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#263238"/>
+
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" হ্যাচারী/নার্সারী  "
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#9C27B0"/>
+
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সরকারী হ্যাচারী -০২ টি (কাউখালী ও লংগদু)\nবেসরকারী হ্যাচারী - নাই\nবেসরকারী নার্সারী - ৬৫ টি (২৩.৯৭ হেঃ) \n\n "
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" সাধারণ তথ্য "
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#9C27B0"/>
+
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="লেক সৃষ্টির সময়কাল- ১৯৬১ইং \nপানি পৃষ্ঠের সর্বোচ্চ ও সর্বনিম্ন উচ্চতা - ৩১.১ ও ২১.৯৪ মিটার\nবাঁধের পানি নির্গমন পথের গভীরতা- ১৫.৫ মিটার\nস্বাভাবিক জলায়তন - ৫৮,৩০০ হেক্টর\nসর্বনিম্ন জলায়তন- ৪৮,৩০০ হেক্টর\nসর্বোচ্চ জলায়তন- ৬৮,৮০০ হেক্টর\nসর্বোচ্চ গভীরতা - ৩৬ মিটার\nগড় গভীরতা - ০৯ মিটার\nমৌসুম ভেদে গভীরতার তারতম্য - ০৮.১৪ মিটার  \n\n "
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#263238"/>
+
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" বিবিধ  "
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="উপজেলা সংখ্যা-১০টি (২টি তে মৎস্য অফিস নেই)\nইউনিয়ন-৪১ টি\nপৌরসভা-০২টি (রাঙ্গামাটি ও বাঘাইছড়ি)\nলোক সংখ্যা- ৫,৯৩,৭০০ জন\nমোট মৎস্য জীবির সংখ্যা-১৯,১৫৯ জন\nমৎস্য চাষীর সংখ্যা-৩,৪২১ জন\nপোনা ব্যবসায়ী-৩২ জন\nমৎস্য অবতরন কেন্দ্র- ০৪ টি (সদর,কাপ্তাই, মারিশ্যা, মহালছড়ি)\nবরফ কল-২১ টি\nনদী/শাখা নদী-০৫ টি (কর্ণফুলী, কাচালং, মাইনী, চেঙ্গী, রেইনক্ষ্যং)\nপ্লাবন ভূমি-০১ টি (৫১০ হেঃ) \n\n\n "
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#263238"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

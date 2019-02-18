@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.biddutkarmakar.kaptainewcorrection.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688">
+
+        <RelativeLayout
+            android:id="@+id/Relative"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <ViewFlipper
+                android:id="@+id/bckgrndViewFlipper1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/leke1" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/leke2" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/leke3" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/leke4" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/leke5" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/leke6" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/leke7" />
+
+
+                </RelativeLayout>
+
+            </ViewFlipper>
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_below="@+id/Relative"
+            android:id="@+id/wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:weightSum="1.0" >
+
+            <Button
+
+
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight=".50"
+                android:background="@drawable/button1" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight=".50"
+                android:background="@drawable/button2"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_below="@+id/wrapper"
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/button3"
+            android:layout_marginLeft="0dp" />
+
+
+        <LinearLayout
+            android:layout_below="@id/button3"
+            android:id="@+id/wrapper1"
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:weightSum="1.0" >
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight=".45"
+                android:background="@drawable/button4" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight=".55"
+                android:background="@drawable/button5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_below="@id/wrapper1"
+            android:id="@+id/wrapper2"
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:weightSum="1.0" >
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight=".55"
+                android:background="@drawable/button6" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight=".45"
+                android:background="@drawable/button7"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_below="@+id/wrapper2"
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/buttonn8"
+            android:layout_marginLeft="0dp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

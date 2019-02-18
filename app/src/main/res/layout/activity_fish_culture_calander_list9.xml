@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishCultureCalanderList3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="পোনা মজুদ  পূর্ববর্তী  পরিচর্যা "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। কৈ মাছ চাষের  জন্য ৪-৬ মাস পানি থাকে এরকম ১৫-৫০ শতাংশের পুকুর নির্বচন করতে হবে। তবে এর চেয়ে বড় পুকুরেও এ মাছ চাষ করা যায় । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। পুকুর পাড় মেরারমত ও জলজ আগাছা পরিস্কার করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। পুকুর সেচে পানি শুকিয়ে অবাঞ্চিত মাছ ও প্রাণী দূর করতে হবে ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। পুকুর শুকানো সম্ভব না হলে প্রতি শতাংশে ২০-২৫গ্রাম রোটেনন (২-৩ ফুট গভীরতার জন্য) প্রয়োগ করে অবাঞ্চিত প্রাণী ও মাছ দূর করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৫। প্রতি শতাংশে  ১ কেজি হারে চুন প্রয়োগ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৬। চুন প্রয়োগের ৩ দিন পর পোনা মজুদের ব্যবস্থা নিতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৭। পোনা মজুদের পূর্বে পুকুরের চারিদিকে নাইলন জালের বেষ্টনি দিতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পোনা মজুদ "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। পুকুরে চাষের জন্য কৈ মাছের পোনা নিকটবর্তী হ্যাচারী হতে সংগ্রহ করে পলিথিন ব্যাগে অক্সিজেন দিয়ে পরিবহন করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। প্রতি শতাংশে ০.৫-১.০ গ্রাম ওজনের সুস্থ সবল ৫০০-৮০০টি পোনা মজুদ করতে হবে  ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। কৈ মাছের পোনা মজুদের ১মাস পরে প্রাতি শতাংশে ২০-২৫ টি মনোসেক্স গিফট পুরষ তেলাপিয়া ছাড়া যেতে পারে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। পুকুরে মজুদের সময় পোনাকে মজুদকৃত পুকুরের পানির সাথে ভালভাবে কন্ডিশানিং করে তার পর ছারতে হবে ।  "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পোনা মজুদ পরবর্তী পরিচর্যা "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। মজুদের দিন থেকে পোনার দেহ ওজনের ২০-৪ গ্রাম হারে দিনে দুই বার ৩০% আমিষ সমৃদ্ধ সম্পূরক  খাদ্য সরবরাহ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। প্রতি ১০-১৫ দিন পর পর জাল টেনে মাছের বৃদ্ধি পর্যাবেক্ষণ করে খাবারের পরিমাণ নির্ধারণ করতে হবে ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। পোনা মজুদের পর ৩০ দিন অন্তর অন্তর শতাংশ প্রতি ২০০ গ্রাম চুন প্রয়োগ করতে হবে ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। সাধারণতঃ কৈ মাছের পুকুরে প্রচুর পরিমাণ প্লাংটনের আধিক্য পরিলক্ষিত হয়ে থাকে, এই প্লাংটন নিয়ন্ত্রণের জন্য প্রতি শতাংশে মনোসেক্স তেলাপিয়ার পোনা ১৫টি ও সিলভার কার্পের পোনা ৫টি মজুদ করা যেতে পারে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৫। প্রয়োজন মোতাবেক পুকুরে বহির হতে বিশুদ্ধ পানি সরবরাহ করার ব্যবস্থা নিতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৬। প্রতি সপ্তাহে পানির গুনাগুন যেমন: পানির তাপমাত্রা, পিএইচ, দ্রবীভূত অক্সিজেন, অ্যামোনিয়া ও মোট ক্ষারত্বের পরিমাণ নির্ণয় করে পরবর্তী ব্যবস্থা নিতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৭। উল্লেখিত পদ্ধতিতে কৈ মাছ চাষ করলে ৪ মাসের মধ্যে ৮০-৯০ গ্রাম ওজনের হবে। এ সময় জাল টেনে ও পুকুরের সমস্ত পানি শুকিয়ে মাছ ধরার ব্যবস্থা নিতে হবে। আধুনিক চাষ ব্যবস্থাপনয় প্রতি একওে ২,২০০-২,৫০০কেজি কৈ মাছ উৎপাদন করা যায় । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="60dp"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishDiseseList13">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:src="@drawable/fungal_disease"
+            android:layout_width="352dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="রোগাক্রান্ত মাছের ছবি "
+            android:textSize="26sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="রোগের লক্ষণ সমূহ "
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#000"
+            />
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সাধারনতঃ অসাবধানতার মাথে মাছ নাড়া-চাড়া করলে বা কোন কারণে মাছের দেহে ক্সতের সৃষ্টি হলে পরবর্তীতে ঐ ক্ষতে তুলার ন্যায় ছত্রাক জন্ম নিতে পারে।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="প্রতিকার বা নিয়ন্ত্রণ"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। ২০০ পিপিএম লবন জলে সপ্তাহে ১ বার ১ ঘন্টা অথবা মাছ যতক্ষণ সহ্য করতে পারে ততক্ষণ ডুবিয়ে রাখতে হবে ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। শতাংশে ১০ গ্রাম হারে পটাশ ২ ডোজ প্রয়োগ করতে হবে ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সাধারণ সতর্কতা : "
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। মাছের রোগ দেখা দিলে অবিলম্বে স্থানীয় জেলা/উপজেলা মৎস্য কর্মকর্তা বা মৎস্য স্বাস্থ্য বিশেষজ্ঞের পরামর্শ দিতে হবে ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। শতাংশে ১০ গ্রাম হারে পটাশ ২ ডোজ প্রয়োগ করতে হবে ।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। রোগ দেথা দিলে তাৎক্ষণিক সময়োপযোগী সঠিক পদক্ষেপ গ্রহণ করে রোগের বিস্তার নিয়ন্ত্রণ করা সম্ভব।"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="#263238"/>
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। পিপিএম=দশ লক্ষ ভাগের ১ ভাগ বা এক নিযুতাংশ। উদাহরণ-২০০ মিঃগ্রাঃ লবন ১ লিটার পানিতে মিশালে ২০০ পিপিএম লবন দ্রবণ তৈরী হবে । \n\n\n"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="50dp"
+            android:textColor="#263238"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

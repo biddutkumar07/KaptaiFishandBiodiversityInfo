@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.biddutkarmakar.kaptainewcorrection">
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="BFRI in Kaptai Lake Info"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishResource"
+
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishProduction"
+
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishBioversity"
+
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".SustainableMangement"
+
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishCultureCalander"
+
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="fullSensor"
+            />
+        <activity
+            android:name=".FishDisese"
+
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList1"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList2"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList3"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList4"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList5"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList6"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList7"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList8"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList9"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList10"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList11"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList12"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishDiseseList13"
+
+            android:parentActivityName=".FishDisese"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".Inventor"
+
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FishCultureCalanderList1"
+
+            android:parentActivityName=".FishCultureCalander"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishCultureCalanderList2"
+
+            android:parentActivityName=".FishCultureCalander"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishCultureCalanderList11"
+
+            android:parentActivityName=".FishCultureCalander"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishBioversityList1"
+
+            android:parentActivityName=".FishBioversity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishBioversityList2"
+
+            android:parentActivityName=".FishBioversity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".FishBioversityList3"
+
+            android:parentActivityName=".FishBioversity"
+            android:screenOrientation="fullSensor" />
+
+        <activity
+            android:name=".FishCultureCalanderList3"
+
+            android:parentActivityName=".FishCultureCalander"
+            android:screenOrientation="fullSensor" />
+
+        <activity android:name=".FishCultureCalanderList4"
+
+            android:parentActivityName=".FishCultureCalander"
+            android:screenOrientation="fullSensor" />
+
+        <activity android:name=".FishCultureCalanderList5"
+
+            android:parentActivityName=".FishCultureCalander" />
+
+        <activity android:name=".FishCultureCalanderList5food"
+
+            android:parentActivityName=".FishCultureCalanderList5"
+            android:screenOrientation="fullSensor" />
+
+        <activity android:name=".FishCultureCalanderList6"
+
+            android:parentActivityName=".FishCultureCalander"
+            android:screenOrientation="fullSensor"/>
+
+        <activity android:name=".FishCultureCalanderList7"
+
+            android:parentActivityName=".FishCultureCalander"
+            android:screenOrientation="fullSensor"/>
+
+        <activity android:name=".FishCultureCalanderList8"
+
+            android:parentActivityName=".FishCultureCalander"
+            android:screenOrientation="fullSensor"/>
+
+        <activity android:name=".FishCultureCalanderList9"
+
+            android:parentActivityName=".FishCultureCalander"
+            android:screenOrientation="fullSensor"/>
+
+        <activity android:name=".FishCultureCalanderList10"
+
+            android:parentActivityName=".FishCultureCalander"
+            android:screenOrientation="fullSensor"/>
+
+
+        <activity android:name=".EmergencyContact"
+
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="fullSensor"></activity>
+    </application>
+
+</manifest>

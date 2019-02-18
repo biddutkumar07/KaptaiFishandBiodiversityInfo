@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishCultureCalanderList3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="পোনা মজুদ  পূর্ববর্তী  পরিচর্যা "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। পুকুরের পাড় ভাঙ্গা থাকলে মেরামত করে বা বেঁধে মজবুত করতে হবে  । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। পুরাতন পুকুরের তলদেশে পঁচা কাদা থাকলে তা তুলে ফেলতে হবে  ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। পুকুরের আগাছা ও পাড়ের ঝোপ ঝাড় পরিষ্কার করতে হবে  ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। পুকুর শুকানোর মাধ্যমে রাক্ষুসে ও অবাঞ্চিত মাছ সম্পূর্ণ ভাবে সরিয়ে ফেলতে হবে  । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৫। পুকুর শুকানো সম্ভব না হলে প্রতি শতাংশে ৫০ গ্রাম রোটনন প্রয়োগ করে অবাঞ্চিত ও রাক্ষুসে মাছ অপসারণ করতে হবে  । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৬। অবাঞ্চিত ও রাক্ষুসে মাছ অপসারণ করার পর প্রতি শতাংশে ০১ (এক) কেজি চুন সমস্ত পুকুরে প্রয়োগ করতে হবে। "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৭। চুন প্রয়োগের ৩-৪ দিন পর প্রতি শতাংশে ৬-৮ কেজি হারে গোবর সার সমস্ত পুকুরে ছিটিয়ে দিতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৮। গোবর সার প্রয়োগের ৩ দিন পর প্রতি শতাংশে ১০০ গ্রাম ইউরিয়া ও ৫০ গ্রাম টিএসপি পুকুরে প্রয়োগ করতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পোনা মজুদ "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। ভাল উৎপাদন পাওয়ার জন্য সুস্থ ও সবল পোনা প্রতি শতাংশে ৬০-৭০ টি (১০-১২ সে.মি আকারের) মজুদ করা যেতে পারে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। প্রতি শতাংশে ২০-২৫ টি রুই, ২০-২৫ টি কাতলা, ১৫-২০ টি মৃগেল মজুদ করা যেতে পারে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পোনা মজুদ পরবর্তী পরিচর্যা "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। পুকুরে দৈনিক/সাপ্তাহিক ভিত্তিতে নিয়মিত সার ব্যবহার করা ভাল। তবে নিয়ম অনুসারে দৈনিক শতাংশ প্রতি ১৫০ গ্রাম গোবর সার অথবা ৭৫ গ্রাম হাঁস-মুরগীর বিষ্ঠা অথবা ৩০০ গ্রাম কম্পোষ্ট, ৫ গ্রাম ইউরিয়া এবং ৩ গ্রাম টিএসপি একটি পাত্রে ৩ গুণ পানির সাথে ১ দিন ভিজিয়ে রাখতে হবে এবং এরপর গুলানো সার সকাল ৯-১০ টার মধ্যে পুকুরে ছিটিয়ে দিতে হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। সস্পূরক খাদ্য হিসাবে চালের কুঁড়া (৮০%), সরিষার খৈল (১৫%) ও ফিশমিল (০৫%) এর মিশ্রণ পুকুরে সরবরাহ করা যেতে পারে অর্থাৎ মজুদকৃত মাছেরওজনের শতকরা ২-৫ ভাগ সম্পূরক খাদ্য দিতে হবে ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। মাছের বৃদ্ধি ও স্বাস্থ্য পরীক্ষা করার জন্য প্রতি মাসে এক বার জাল টেনে নমুনায়নের মাধ্যমে রোগ-বালাই আছে কিনা দেখতে হবে এবং মাছ মেপে বৃদ্ধি পরীক্ষা করতে হবে ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৪। রুই জাতীয় মাছ ৯-১০ মাসে বিক্রয়যোগ্য হয়। মাছ ধরার জন্য ঝাকি জাল বা টানা বেড়জাল ব্যবহার করা যেতে পারে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="60dp"
+            android:textColor="#000"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishCultureCalanderList3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="পোনা মজুদ  পূর্ববর্তী  পরিচর্যা "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। পানির গভীরতা ৩-৫ ফুট থাকে এমন ছোট বড় যে কোনো পুকুর মনোসেক্স তেলাপিয়া চাষের জন্য নির্বাচন করা যেতে পারে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। পুকুর পাড় মেরামত, জলজ আগাছা পরিস্কার এবং অবাঞ্চিত মাছ দূর করে প্রতি শতাংশে ১ কেজি হারে চুন প্রয়োগ করা আবশ্যক । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। চুন প্রয়োগের ৩ দিন পরে পুকুরে প্রতি শতাংশে ৮-১০ কেজি হারে গোবর সার  প্রয়োগ করতে হয়ে। সার প্রয়োগের ১ সপ্তাহের মধ্যে পুকুরে মনোসেক্স তেলাপিয়ার পোনা মজুদের ব্যবস্থা নিতে হবে ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000"/>
+
+
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পোনা মজুদ "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। পুকুর প্রস্তুতির পর প্রতি শতাংশে ৮-১০ গ্রাম ওজনের সুস্থ – সবল ২০০-২৫০ টি পোনা মজুদ করা যেতে পারে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পোনা মজুদ পরবর্তী পরিচর্যা "
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="১। পোনা মজুদের পর ২৫% প্রোটিন সমৃদ্ধ সম্পূরক খাদ্য প্রতিদিন পুকুরে মজুদকৃত মাছের দেহ ওজনের ৩-১০% হারে প্রয়োগ করতে হবে  । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="২। পুকুরে প্রাকৃতিক খাদ্যের প্রাচুর্যতা বৃদ্ধির জন্য ৭ দিন অন্তর অন্তর ৪-৬ কেজি গোবর সার অথবা ১০০ গ্রাম ইউরিয়া ও ৫০ গ্রাম টিএসপি প্রয়োগ করা যেতে পারে ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="৩। প্রতি ১৫ দিন অন্তর অন্তর ৪ মাসের মধ্যে প্রতিটি তেলাপিয়া মাছের ওজন ২০০-২৫০ গ্রাম হয়ে থাকে। এ অবস্থায় পুকুর শুকিয়ে সমস্থ মাছ আহরণ করা যেতে পারে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="60dp"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

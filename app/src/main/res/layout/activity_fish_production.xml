@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.biddutkarmakar.kaptainewcorrection.FishProduction">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" কাপ্তাই লেক "
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="কাপ্তাই লেক-১৩১ কেজি/হেক্টর (০.৫০কেজি/ শতক)\n "
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="বছর ভিত্তিক মৎস্য আহরণ"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text4"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginBottom="8dp"
+        android:text="X axis : বছর"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text5"
+        android:layout_below="@+id/text"
+        android:paddingLeft="30dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:text="Y axis : হ্রদের মাছের উৎপাদন (মে.টন)"
+        android:layout_marginBottom="20dp"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="অন্যান্য জলাশয় "
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#000"/>
+
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="পুকুর-৭৯৬.৩১ মেঃটন (৯.৬৬ কেজি/ শতক)\nক্রীক-৮৯০.৬৫মেঃটন (৫.৮৯ কেজি/ শতক)"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:layout_marginLeft="25dp"
+        />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="মোট মাছের উৎপাদন-১০,৭৩১,৬৩ মেঃটন \nমোট মাছের চাহিদা-১২,১৩৫,২৩ মেঃটন (জন প্রতি ৫৬ গ্রাম/দিন হিসাবে)\nমাছের ঘাটতি-১,৪০৩,৬০ মেঃটন\n\n"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="5dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="50dp"
+        android:textColor="#000"/>
+
+
+</LinearLayout>
+
+</ScrollView>

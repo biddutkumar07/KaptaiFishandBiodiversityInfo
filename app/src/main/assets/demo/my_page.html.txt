@@ -1,0 +1,18 @@
+<html>
+       <head>
+       <style type="text/css">
+       @font-face {
+           font-family: MyFont;
+           src: url("file:///android_asset/fonts/MyFont.otf")
+       }
+       body {
+           font-family: MyFont;
+           font-size: medium;
+           text-align: justify;
+       }
+       </style>
+       </head>
+       <body>
+       Your text can go here! Your text can go here! Your text can go here!
+       </body>
+       </html>

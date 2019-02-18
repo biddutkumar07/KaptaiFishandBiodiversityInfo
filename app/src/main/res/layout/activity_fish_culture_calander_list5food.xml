@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="0dp">
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="8dp"
+                        android:text="সময় কাল "
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:background="#44b365"
+                        />
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:text=" রেণুর ওজন  "
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:background="#44b365"/>
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:text=" খাদ্য  "
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:background="#44b365"/>
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:text=" প্রয়োগের নিয়ম "
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:background="#44b365"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৪-৭ দিন  "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১০০ গ্রাম "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৪০% প্রোটিন সমৃদ্ধ ১০০ গ্রাম নার্সারী ফিড প্রয়োগ করতে হবে   "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:id="@+id/text8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" সকাল ও বিকালে  "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"
+                        android:layout_marginBottom="5dp"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৮-১৫ দিন  "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১০০ গ্রাম"
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৪০% প্রোটিন সমৃদ্ধ ২০০ গ্রাম নার্সারী ফিড প্রয়োগ করতে হবে   "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:id="@+id/text12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" সকাল ও বিকালে  "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"
+                        android:layout_marginBottom="5dp"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১৬-২৩ দিন  "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১০০ গ্রাম "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৪০% প্রোটিন সমৃদ্ধ ৪০০ গ্রাম নার্সারী ফিড প্রয়োগ করতে হবে   "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:id="@+id/text16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" সকাল ও বিকালে  "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"
+                        android:layout_marginBottom="5dp"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ২৪-৩০ দিন  "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১০০ গ্রাম "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৪০% প্রোটিন সমৃদ্ধ ৫০০ গ্রাম নার্সারী ফিড প্রয়োগ করতে হবে   "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:id="@+id/text20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" সকাল ও বিকালে  "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"
+                        android:layout_marginBottom="5dp"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৩০-৩৭ দিন  "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১০০ গ্রাম "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৪০% প্রোটিন সমৃদ্ধ ৫০০ গ্রাম নার্সারী ফিড প্রয়োগ করতে হবে   "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:id="@+id/text24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" সকাল ও বিকালে  "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:textColor="#131313"
+                        android:background="#ffff"
+                        android:layout_marginBottom="100dp"/>
+
+
+                </TableRow>
+
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

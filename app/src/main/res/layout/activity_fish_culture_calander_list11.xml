@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" রুপান্তিরত একক সমূহের সারণী  "
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="18sp"
+                    />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ বর্গ মিটার "
+                        android:textSize="14sp"
+                        android:textColor="#000"
+                        android:background="#ffff"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"/>
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১০.৭৬ বর্গ ফুট "
+                        android:textSize="14sp"
+                        android:textColor="#000"
+                        android:background="#ffff"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" --  "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:text=" ১ ঘনফুট   "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/text8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:text=" ০.০২৮৩ ঘনমিটার "
+                        android:textSize="14sp"
+                        android:textColor="#000"
+                        android:background="#ffff"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/text9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:text=" ২৮.৩ লিটারপানি "
+                        android:textSize="14sp"
+                        android:textColor="#000"
+                        android:background="#ffff"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/text10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="  ১ ঘনমিটার   "
+                        android:textSize="14sp"
+                        android:textColor="#000"
+                        android:background="#ffff"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/text11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১.৩০ ঘনগজ "
+                        android:textSize="14sp"
+                        android:textColor="#000"
+                        android:background="#ffff"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/text12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৩৫.৩১ ঘনফুট"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ হেক্টর "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/text15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ২.৪৭ একর  "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/text16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১০,০০০ বর্গ মিটার"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ একর   "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১০০ শতাংশ  "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/text19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ০.৪৫০"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ বিঘা   "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/text21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ০.৩৩ একর "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/text22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৩৩ শতাংশ "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ শতাংশ "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/text24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৪৩৫.৬ বর্গ ফুট "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/text25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৪০.৪৮ বর্গ মিটার"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="  "
+                        android:textSize="14sp"
+                        android:textAlignment="center" />
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ গ্যালনপানি "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+
+                    <TextView
+                        android:id="@+id/text30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৮.৩৪ পাউন্ড    "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/text31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৩.৭৮৫ লিটার "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"/>
+
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/text32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ ঘনফুটপানি  "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৭.৫ গ্যালন  "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৬২.৪ পাউন্ড"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"/>
+
+
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/text35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ লিটারপানি "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ কিলোগ্রাম   "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ২.২ পাউন্ড"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+
+                        />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/text41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ সের  "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ০.৯৩ কিলোগ্রাম "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ২.০৫ পাউন্ড"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/text44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ কিলোগ্রাম  "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১.০৭ সের "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text46"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ২.২ পাউন্ড"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/text47"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ মণ  "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text48"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৪০ সের  "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text49"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৩৭.৩২"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/text50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ কুইন্টাল"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১০০ কিলোগ্রাম "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ২.৬৮ মণ"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/text53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ মেট্রিকটন "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১০০০ কিলোগ্রাম"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ২৬.৮ মণ"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" "
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        />
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/text59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ ইঞ্চি  "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="  ২.৫৪ সে.মি  "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ২৫.৪ মিমি."
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/text62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ ফুট "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১২ ইঞ্চি "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text64"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ০.৩"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/text65"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ মিটার "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ৩.২৮ ফুট  "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:id="@+id/text67"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১.০৯৪"
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text68"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১ কিলোমিটার "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/text69"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" ১.৬২ কিলোমিটার "
+                        android:textSize="14sp"
+                        android:background="#ffff"
+                        android:textColor="#000"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="2dp"
+                        android:text=" -- "
+                        android:background="#ffff"
+                        android:textSize="14sp"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="10dp"/>
+
+                </TableRow>
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>
+
+

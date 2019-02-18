@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SustainableMangement">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" মৎস্য প্রজননক্ষেত্র সংরক্ষণ ও ব্যবস্থাপনা  "
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="প্রজনন ক্ষেত্র ও প্রজনন অভিপ্রয়ণ পথগুলোতে পলি ভরাট হয়েছে এবং কোথাও কোথাও প্রজনন ক্ষেত্র  স্থানান্তরিত হয়েছে। হ্রদে রুই জাতীয়  মাছের মজুদ বৃদ্ধিও  সংরক্ষণ করার জন্য প্রাকৃতিক প্রজনন ক্ষেত্রগুলো যেমন-কাসালং চ্যানেলে মাইনিমুখ এবং তদুর্ধ্ব এলাকা;কর্ণফুলী চ্যানেলে জগন্নাথছড়ি এবং তদুর্ধ্ব এলাকা; চেংগী চ্যানেলে নানিয়ারচর এবং তদুর্ধ্ব এলাকা এবং রীংকং চ্যানেলে বিলাইছড়ি এবং তদুর্ধ্ব এলাকা পুনঃখননের মাধ্যমে ও সংরক্ষণের পাশাপাশি প্রজনন এলাকাগুলো অভয়াশ্রম ঘোষণা করে যথাযথ ব্যবস্থাপনার আওতায় আনতে হবে । \n\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical|right"
+
+
+            android:textColor="#263238"/>
+
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" অভয়াশ্রম ব্যবস্থাপনার কার্যকারিতা   "
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="হ্রদের জীব-বৈচিত্র্য রক্ষার জন্য হ্রদের পাঁচটি গুরুত্বপূর্ণ অংশকে অভয়াশ্রম হিসেবে ঘোষণা করা হয়েছে। রাঙ্গামাটি ডিসি বাংলো সংলগ্ন হ্রদ এলাকা, বিএফডিসি রাঙ্গামাটি সদর অফিস সংলগ্ন হ্রদ এলাকা,লংগদু উপজেলা কমপ্লেক্স  হ্রদ এলাকা, ছয়কুড়ি বিল, নানিয়ারচর  হ্রদ এলাকা, রাঙ্গামাটি রাজবন বিহার হ্রদ এলাকা, কাপ্তাই উপজেলার নৌবাহিনী ক্যাম্পসংলগ্ন হ্রদ এলাকা এবং বিলাইছড়ি রীংকং চ্যানেল সংলগ্ন হ্রদ এলাকা।মৎস্য উন্নয়ন কর্পোরেশন বাংলদেশ মৎস্য গবেষণা ইনস্টিটিউটের  পরামর্শ মোতাবেক উক্ত স্থান গুলোতে অভয়াশ্রম প্রতিষ্ঠা করে মৎস্য প্রজাতিরসমূহের নির্বিঘœ প্রাকৃতিক প্রজনন নিশ্চিত করার মাধ্যমে জীব-বৈচিত্র্য সংরক্ষণের প্রচেষ্টা অব্যহত রেখেছে ।  \n\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" পাহাড়ী ঘোনায় নার্সারী স্থাপন ও ব্যবস্থাপনা   "
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="পপোনা অবমুক্তি চেয়ে হ্রদের বিভিন্ন ঘোনায়/ক্রীকে নার্সারী স্থাপন করে কম সময়ে কম খরচে বেশী পোনা উৎপাদন করা যায় এবং অবমুক্তিজনিত মৃত্যু হার অনেক কম হয়। উৎপন্ন পোনা বর্ষার পানিতে/পাহাড়ী ঢলে প্লাবিত হয়ে স্বাভাবিকভাবে হ্রদে ছড়িয়ে পড়বে।ইনস্টিটিউটের রাঙ্গামাটিস্থ নদী উপকেন্দ্রকাপ্তাই হ্রদের পাহাড়ী ঘোনায় নার্সারী স্থাপন ও ব্যবস্থাপনা কৌশল উদ্ভাবন করেছে। ফলে পাহাড়ী এলাকায় কার্পজাতীয় মাছের রেণু পোনাথেকে ৬০ দিনে গুণগতমানসম্পন্ন আঙ্গুলী পোনার প্রাপ্যতা নিশ্চিত হবে। ইনস্টিটিউটের উদ্ভাবিত এই প্রযুক্তি মৎস্য অধিদপ্তর কর্তৃক ব্যাপক সম্প্রসারন কার্যকম পরিচালনার ফলে পাহাড়ী এলাকায় রুইজাতীয় মাছের নার্সারী ব্যবস্থাপনরা নতুন সম্ভবানার দ্বার উম্মোচন করেছে ।\n\n\n "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" নির্ধারিত আকারের বড় পোনা মজুদ ও ব্যবস্থাপনা   "
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সহনশীল মৎস্য আহরণ অব্যহত রাখার নিমিত্ত প্রতি বছর হ্রদ থেকে যে পরিমাণ মাছ ধরা হয়ে থাকে তা পুরণের লক্ষ্যে প্রতি মৌসুমে বাণিজ্যিক গুরুত্বসম্পন্ন প্রজাতি সমূহের বিশেষ করে রুই জাতীয় মাছের ছোট-বড় বিভিন্ন সাইজের পোনা মজুদ করা হয়। পোনা মজুদ কর্মসূচী কার্যকর করার লক্ষ্যে বাংলদেশ মৎস্য গবেষণা ইনস্টিটিউট এর সুপারিশ মোতাবেক কমপক্ষে ২৫% পোনা প্রাকৃতিক প্রজননের (হালদা বা যমুনা নদীর) পোনা হতে হবে,বিএফডিসির নিজস্ব পোনা উৎপাদন কার্যক্রম পুনরায় চালু করতে হবে এবং  হ্রদের পরিবেশেরসাথে খাপ খাওয়াাতে পারে এমন  সুস্থ, সবল ও নির্ধারিত আকারে বড় পোনা (১০-১৮ সেমি.) মজুদ করতে হবে । \n\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ক্ষতিকর মৎস্য  শিকার  পদ্ধতি \nপ্রতিরোধ ব্যবস্থাপনা "
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সাম্প্রতিক তথ্য থেকে জানাযায় যে, হ্রদের মোট আহরিত মাছের প্রায় ২৬% আসে জাঁক থেকে। জাঁকে আকার ও প্রজাতি নির্বিশেষে প্রায় সব ধরণের মাছ ধরা পড়ে। ফলে পোনা মাছ বিশেষ করে রুই জাতীয় মাছের পোনা নিধন হয়ে থাকে। অন্যদিকে জাঁকের মাছ সাধারণতঃ শুষ্ক মৌসুমে আহরণ করা হয় বিধায় সর্বশেষ আশ্রয়স্থল মনে করে জাঁকের ভিতরে গিয়ে একত্রিত হয়ে থাকা ডিমওয়ালা মাছও ব্যাপক হারে নিধন হয়ে থাকে। গবেষণার এ সকল বিষয় উদঘাটিত হওয়ার পর প্রদত্ত সুপারিশ মোতাবেক হ্রদে জাঁক পদ্ধতিতে মৎস্য শিকার নিষিদ্ধ ঘোষণা হয়েছে। কিন্তু আইন বা বিধিনিষেধ বিবেচনা না করে সকল ধরণের ও সব সাইজের মাছ ধরার একটি প্রবনতা পরোক্ষভাবে অধিকাংশ জাঁক মালিকদের মধ্যে লক্ষ্য করা যাচ্ছে ।"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="কাপ্তাই হ্রদে সহনশীল মৎস্য ব্যবস্থাপনা লক্ষ্যে বিএফডিসি, মৎস্য অধিদপ্তর, বিএফআরআই ও অন্যান্য সংস্থাসমূহের সম্পৃক্ততার মাধ্যমে জাঁক পদ্ধতিতে মৎস্য শিকার প্রতিরোধ এবং গণসচেতনতা বৃদ্ধিমূলক কর্মসুচী বাস্তবায়ন করতে হবে। আবার হ্রদে ব্যবহৃত বিভিন্ন ধরণের জালসমুহের মধ্যে প্রায় ৯০% হচ্ছে ছোট ফাঁস বিশিষ্ট নিষিদ্ধ কারেন্ট জাল, যার ব্যবহার নিষিদ্ধ করতে হবে। সাথে সাথে  বিভিন্ন সময় বিশেষ করে প্রজনন মৌসুমে হ্রদ বন্ধ থাকাকালীন টহল টীমের মাধ্যমে কারেন্ট জাল আটক ও পোড়ানোসহ এর প্রতিরোধ কার্যক্রম জোরদার করতেহবে । \n\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" বিকল্পমৎস্য চাষ প্রদ্ধতি উদ্ভাবন সর্ম্পকীয় গবেষণা ও এর ব্যবস্থাপনা "
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="হ্রদের বর্তমান মৎস্য উৎপাদন মূলতঃ গতানুগতিক আহরণভিত্তিক ব্যবস্থাপনা নির্ভর, চাষ নয়। বর্তমান মৎস্য উৎপাদন আরো বৃদ্ধির নিমিত্ত  বাংলাদেশ মৎস্য গবেষণা  ইনস্টিটিউট বিকল্প মৎস্য চাষ পদ্ধতি উদ্ভাবন সম্পর্কীয় গবেষণা কার্যক্রম পরিচালনা করে আসছে।কাপ্তাই লেকে মৎস্য উৎপাদন বৃদ্ধি, সংরক্ষণ ও ব্যবস্থাপনা জোরদারকরণ (কম্পোনেন্ট-সি, বিএফআরআই অংশ) উন্নয়ন প্রকল্পের অর্থায়নে পরিচালিত খাঁচায় মনোসেক্স তেলাপিয়া, থাই সরপুঁটি ও থাই কৈ চাষের উপযুক্ততা যাচাই এর মাধ্যমে হ্রদ বন্ধকালীন সময়ে জেলেদের বিকল্প কর্মসংস্থানের সুযোগ সৃষ্টি হবে। কাপ্তাই লেকে খাঁচায় মাছ চাষ প্রযুক্তি মৎস্যচাষি ও উদ্যোক্ততাদের মাঝে পৌছে দেয়ার জন্য সম্প্রসারন কার্যক্রম অব্যাহত রাখতে হবে । \n\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" গবেষণা কার্যক্রম  জোরদারকরণ   "
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="বাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট এর নদী উপকেন্দ্র স্থাপনের পর থেকেই প্রকৃত অর্থে হ্রদের মৎস্য সম্পদ বৃদ্ধিকল্পে প্রায়োগিক গবেষণা শুরু হয়েছে। ইতোমধ্যে গবেষণা ভিত্তিক গুরুত্বপূর্ণ ফলাফল, প্রযুক্তি উদ্ভাবন ও সহায়ক তথ্যাদি সংগ্রহে অনেকাংশেই সফলতা লাভ করেছে এবং এ হ্রদটির সম্ভবনাকে পুরোপুরি  কাজে লাগাতে কাপ্তাই লেকে মৎস্য উৎপাদন বৃদ্ধি, সংরক্ষণ ও ব্যবস্থাপনা জোরদারকরণ (কম্পোনেন্ট-সি, বিএফআরআই অংশ) উন্নয়ন প্রকল্পের অর্থায়নেঅত্যাধুনিক সুযোগ সুবিধা সম্বলিত অফিস কাম ল্যাবরেটরী নির্মাণ করা হয়েছে। ফলে হ্রদভিত্তিক প্রায়োগিক গবেষণা কার্যμম জোরদারকরণ সম্ভব হবে । "
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="কাপ্তাই হ্রদের মৎস্যসম্পদ এতদাঞ্চলের জন-মানুষের কৃষ্টি-সংস্কৃতি ও জীবন-জীবিকার মান উন্নয়নের পাশাপাশি জাতীয় অর্থনীতিতে গুরুত্বপূর্ণ অবদান রাখছে।এখানে বিদ্যমান মৎস্যসম্পদের মজুদ নিরুপনের পাশা-পাশি স্থায়িত্বশীল উৎপাদন ও আহরণ ব্যবস্থাপনা জরুরী। মৎস্য সম্পদের টেকসই উন্নয়নের জন্য মধ্যম ও কৃত্রিম উৎপাদনশীল এই জলাশয় থেকে বাড়তি আহরণ চাপ নিয়ন্ত্রন আবশ্যক। এই জন্য জেলেদের বিকল্প কর্মসংস্থান, দায়িত্বশীল মৎস্য আহরণ, মৎস্য প্রজননক্ষেত্র সমূহ পূর্নরুদ্ধার, সংরক্ষণ, বিপনন ও সস্প্রসারনমূলক পর্যাপ্ত সহায়ক কর্মসূচী ও প্রকল্প গ্র্রহণ করা প্রয়োজন। সরকার, দেশবাসী ও আন্তর্জাতিক মহল সবাইকে এ বিষয়ে উদ্যোগ নিতে হবে।সর্বোপরি আধুনিক ও বিজ্ঞানভিত্তিক ব্যবস্থাপনা এবং যথাযথ উন্নয়নের পরশে আরও সমৃদ্ধ হোক এই হ্রদের মৎস্য ভান্ডার। \n\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+
+ -->
+
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+        <WebView
+            android:id="@+id/webView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+
+        <WebView
+            android:id="@+id/webView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+        <WebView
+            android:id="@+id/webView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+        <WebView
+            android:id="@+id/webView9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+        <WebView
+            android:id="@+id/webView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+
+        <WebView
+            android:id="@+id/webView13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp">
+
+        </WebView>
+
+
+    </LinearLayout>
+
+</ScrollView>

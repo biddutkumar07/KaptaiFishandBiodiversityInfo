@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+      <!--  <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="মংস্যচাষীয় কাজের বর্ষপঞ্জী  "
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="বৈশাখ (এপ্রিল-মে) : "
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ঐারা কার্প জাতীয় মাছের রেণু চাষ করবেন তাদের জন্য এ সময়টা খুব গুরুত্বপূর্ণ। নার্সারী পুকুর ভালভাবে তৈরী করেই কেবল রেণু ছাড়া উচিত। যারা তেলাপিয়া এবং থাই কৈ চাষ করবেন তারা এ মাসের প্রথমে পোনা পাবেন। নার্সারী পুকুরে এ মাসে পোনা পরিচর্যা করে পরবর্তী মাসে চাষ পুকুরে সান্থানান্তর করবেন, শিং মাগুরের রেণু বা পোনা এ মাসে পেতে পারেন। গত বছরের মজুদ মাছ এ মাসে বিক্রি করলে লাভবান হতে পারেন ।\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="জৈষ্ঠ  (মে-জুন) : "
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="গত মাসে আতুর পুকুরে ছাড়া রেণু পোনা এ মাসে ধানী পোনায় রুপান্তরিত হয়েছে। তাছাড়া চারা পোনার জন্য গতমাসে তৈরী করে রাখা পুকুরে এ মাসে ধানী পোনা মজুদ করতে হবে। তবে তার আগে ঘন ফাঁসের জাল টেনে জলজ আগাছা ও কীট-পতঙ্গ তুণে ফেলতে হবে। এ মাসেও কৈ-শিং-মাগুরের পোনা নাসিং করা এবং নাসিং পোনা চাষে ফেলা যাবে। শীতের আগে মজুদ করা মাছ এ মাসে ভাল দাম পাবেন ।\n\n "
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="আষাঢ় (জুন-জুলাই) : "
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" এ মাসে প্রচুর বৃষ্টিপাত হয়। এতে আতুর পুকুর, চারা পুকুর এমনকি মজুদ পুকুরের পাড় ভেঙ্গে যেতে পারে। এ জন্য পাড় মেরামতের প্রয়োজন হতে পারে। সম্ভব হলে অতিরিক্ত পানি পাইপের মাধ্যমে বের কওে দিতে হবে। এ মাসে কৈ, শিং-মাগুও এবং তেলাপিয়া মাছকে যথাযথ খাবার পরিবেশন করতে হবে। গত বছরের মজুদ মাছ এ মাসেও বিক্রি করতে পারেন।যারা এখনো কার্প জাতীয় মাছের পোনা মজুদ পুকুওে স্থানান্তর করেনি তারা এখন মজুদ করতে পারেন ।\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="শ্রাবণ (জুলাই-আগষ্ট) :  "
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="প্রথমে যারা কৈ মাছের পোনা মজুদ করেছেন তারা এসময় প্রথম আহরণ করতে পারেন। এ সময় মাছের দাম ভালো পাওয়া যাবে।তেলাপিয়া মাছের আংশিক আহরণ করলে বাকী মাছের বৃদ্ধি ভালো হবে। প্রচুর বৃষ্টিতো পুকুরের পার তলিয়ে যাবার সম্ভাবনা থাকলে, বাশেঁর বানা এবং নাইলনের  জালদিয়ে ঘিরে দিতে হবে।শিং মাগুরের পুকুরে ঠিকভাবে খাবার দেয়া ছাড়াও পানি ও পুকুরের তল দেশের পরিবেশ উন্নয়নে মনোযোগী হতে হবে। পুকুরের পাড় ডুবে গিয়ে থাকলে এ মাসে জাল টেনে বাক্ষুসে বা অবঞ্চিত মাছ ধরে ফেলতে হবে ।\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ভাদ্র (আগষ্ট-সেপ্টেম্বর) : "
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="দ্বিতীয় দফায় কৈ মাছের চাষ করতে হলে, এ সময় নার্সিং করা কৈ মাছের পোনা মজুদ করতে হবে। তা না হলে উক্ত চাষে সমূহ সমস্যার মুখোমুখি হতে হবে।তেলাপিয়া মাছ এ মাসে  বিক্রি করে ফেললে দ্বিতীয় দফয় নার্সিং করা পোনা মজুদ করা যাবে।কার্প জাতীয় মাছের চাষ পুকুরে যথার্থ যতœ নিতে হবে। যাদি গত মাসে  জাল টানা সম্ভব না হয়ে থাকে অথচ পুকুরের পাড় ভেঙ্গে বা ডুবে এক পুকুরের মাছ অন্য পুকুওে গিয়ে থাকে তাহলে এমাসে তা বাছাই করে বা ঘনত্ব কমিয়ে দিতে হবে ।\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="আশ্বিন/ কার্তিক (সেপ্টেম্বর- নভেম্বর) : "
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="এ মাসে পূর্বের মজুদ করা কৈ, তেলাপিয় প্রভৃতি মাছ বিক্রয় উপযোগী হলে বিক্রয় করা যেতে পারে। পানিতে প্রকৃতিক খাবারের ঘাটতি থাকলে (কার্প জাতীয় মাছের ক্ষেত্রে) পুকুরে প্রকৃতিক খাবার বৃদ্ধির ব্যবস্থা করতে হবে।পুকুরের  পরিবেশ উন্নয়নে এবং মাছের স্বাস্থ্য পর্যাবেক্ষণ কওে প্রয়োজনীয় ব্যবস্থা নিতি হবে ।\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="অগ্রহায়ণ (নবেম্বর- ডিসেম্বর) :  "
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="এ সময় হালকা শীত পরার ফলে মাছের খাদ্য গ্রহন কিছুটা কমে আসবে।পুকুরের পানির পরিবেষ ক্ষতিগ্রস্থ হতে পারে। বিশেষত পুকুরের অ্যামোনিয়ার উপস্থিতি পাওয়া যেতে পারে। এ সময় মৎস্য বিশেষজ্ঞদেও পরামর্শ নিয়ে যথযথ ব্যবস্থা গ্রহন করতে হবে। যার দাম কম বলে এ সময়ে মাছ বিক্রি করতে চাইবেন না তারা মাছের ঘনত্ব কমিয়ে দেবেন ।\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="পৌষ (ডিসেম্বর-জনুয়ারী) : "
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="এ সময় শীতকাল। মাছ চাষে ক্রান্তিকাল। অধিকাংশ খামারী বড় মাছ এ সময়ের মধ্যে বিক্রি করে দেয়। তবে যারা পরবর্তী বছরে  বিক্রয়ের জন্য রেখে দেন বা তেলাপিয়া ২০/৩০ গ্রামর পোনা পরবর্তী বছরের জন্য রাখবেন তাদের যথযথ সাবধানতা অবলবম্বন করতে হবে।পুকুরের পানি পবির্তনের প্রয়োজন হতে পারে।পুকুরের অ্যামোনিয়া গ্যাস এমন কি মাছে ক্ষতরোগ দেখা দিতে পারে।পানির পরিবেশ উন্নয়নের জন্য প্রয়োজনীয় উপকরণ ব্যবহার করা আবশ্যক।কৈ চাষীরা যদি এ সময় মাছ রাখতে চান তাহলে প্রতি শতকে ১০০ মাছের বেশী রাখা ঠিক হবেনা। তাছারা পুকুরের পরিবেশ উন্নয়নে মনোযোগী হতেই হবে। এ সময় শেষ মৌসুমের তেলাপিয়ার পোনা পরবর্তী বছরের জন্য নার্সারীতে রাখা যেতে পারে ।\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="মাঘ (জানুয়ারী-ফেব্রুয়ারী) : "
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="এ সময়ে মাছের খাবার মোটামুটি বন্ধ থাকবে। তবে, এ মাসের শেষের দিকে সামান্য খাবার দিতে হবে। তেলাপিয়া মাছ সামান্য পরিমানে খাবে। তবে, তা দেহের ওজনের ১% এর বেশী নয়। মাছের রোগ ব্যাধি এ সময়টাতে বেশী হয়। মাছকে সুস্থ রাখতে হলে পুকুর গ্যাসমুক্ত রাখতে হবে ।\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ফাল্গুন (ফেব্রুয়ারী-মার্চ) :  "
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="পরিকল্পিত প্রকল্প শুরু করতে এ সময়ে পুকুর খনন করতে হবে। যাদের পুকুরে মাছ আছে সে গুলো আবার খাবার শুরু করবে এবং মাছের বৃদ্ধি শুরু হবে। হঠাৎ করে খাবার বেশী দিয়ে অনেক সময় পুকুরের পানি নষ্ট হতে পাওে এ ব্যাপারে সাবধানতা অবলম্বন করা আবশ্যক। পানি দ্রুত কমে গেলে এ সময় পনি দেয়ার ব্যবস্থা করতে হবে ।\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+        <TextView
+            android:id="@+id/text22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="চৈত্র (মার্চ- এপ্রিল) : "
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="নতুন পুকুর কাটা হয়ে থাকলে এখন থেকে আদর্শ পুকুর প্রস্তুতি শুরু করতে হবে। পানি অস্বাভাবিক কমে গেলে কিছু মাছ এ সময় বিক্রি করে দেয়া সম্ভব। এ মাসের শেষের দিকে তেলপিয়া এবং কৈ মাছের পোনা পাওয়া গেলে তা নার্সরী পুকুরে দিতে হবে। গত শীতের আগে জামিয়ে রাখা চাষযোগ্য পোনা এ সময় মজুদ পুকুরে দিতে হবে ।\n\n\n\n"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#263238"/>
+
+            !-->
+
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+        <WebView
+            android:id="@+id/webView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+        <WebView
+            android:id="@+id/webView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+        <WebView
+            android:id="@+id/webView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+        <WebView
+            android:id="@+id/webView9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+        <WebView
+            android:id="@+id/webView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+
+        <WebView
+        android:id="@+id/webView13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        />
+
+        <WebView
+            android:id="@+id/webView14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+        <WebView
+            android:id="@+id/webView15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+
+        <WebView
+            android:id="@+id/webView19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView20"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+        <WebView
+            android:id="@+id/webView21"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+        </WebView>
+
+        <WebView
+            android:id="@+id/webView23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+        <WebView
+            android:id="@+id/webView24"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp">
+
+        </WebView>
+
+
+    </LinearLayout>
+
+</ScrollView>

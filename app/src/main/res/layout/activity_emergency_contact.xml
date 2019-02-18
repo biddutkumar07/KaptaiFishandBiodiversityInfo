@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FishCultureCalanderList2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="উপকেন্দ্র প্রধান"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="বাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="নদী উপকেন্দ্র, রাঙ্গামাটি-৪৫০০"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ফোন নং: ০৩৫১-৬২১৫৯ (অফিস)"
+            android:textSize="15sp"
+            android:autoLink="phone"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="মোবাইল : ০১৫১৭-২৬৭৫৭১"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:autoLink="phone"
+            android:layout_marginLeft="80dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ইমেইল :ssorss2@fri.gov.bd "
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:autoLink="email"
+            android:layout_marginLeft="80dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="এসএমএস : ০১৫১৭-২৬৭৫৭১ (Click it) "
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:autoLink="none"
+            android:layout_marginLeft="80dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ভিডিও কল : ০১৫১৭-২৬৭৫৭১ "
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="মূখ্য বৈজ্ঞানিক কর্মকর্তা"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="বাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="নদী কেন্দ্র, চাঁদপুর-৩৬০০"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ফোন নং: ০৮৪১-৬৩৪০৭ (অফিস)"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:autoLink="phone"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="মোবাইল: ০১৭২০-৩২২০৪৬"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:autoLink="phone"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ইমেইল: csobfrirs@gmail.com"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:autoLink="email"
+            android:layout_marginLeft="80dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="এসএমএস:-০১৭২০-৩২২০৪৬ (Click it)"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:autoLink="none"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ভিডিও কল: ০১৭২০-৩২২০৪৬"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="পরিচালক (গবেষণা ও পরিকল্পনা)"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+
+        <TextView
+            android:id="@+id/text18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="বাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/text19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ময়মনসিংহ-২২০১"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ফোন নং: ০৯১- ৬২৭১০ (অফিস)"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:autoLink="phone"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="মোবাইল: ০১৭১১-০৪৫৮৮৯  "
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:autoLink="phone"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ইমেইল: dgbfri@gmail.com "
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:autoLink="email"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="এসএমএস: ০১৭১১-০৪৫৮৮৯ (Click it)"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:autoLink="none"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ভিডিও কল: ০১৭১১-০৪৫৮৮৯ "
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/text25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="বিস্তারিত জানতে ভিজিট করুন  "
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#9C27B0"/>
+
+        <TextView
+            android:id="@+id/text26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.fri.gov.bd "
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="60dp"
+            android:autoLink="web"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

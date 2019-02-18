@@ -1,0 +1,376 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TableLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="\t\t\t\t\t\t\t\t   সংস্থা/গবেষণা প্রতিষ্ঠানের নাম"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="#000"
+                    android:layout_marginBottom="10dp"/>
+
+
+
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:textAlignment="center"
+                        android:text="বিবরণ"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_column="1"
+                        android:text="(বিএফডিসি )\n১৯৮৬"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="(বিএফআরআই)\n১৯৯১"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="(বিএফআরআই)\n২০০৩"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="মৎস্য প্রজাতি"
+                        android:textSize="17sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="দেশী "
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="৬৬"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="৬৬"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#fff"/>
+                    <TextView
+                        android:id="@+id/text10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="৬৭"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/text11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="বিদেশী "
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="৬"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="৫"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="2dp"
+                        android:text="৮"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="মোট "
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#f20b0b"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="৭২"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#f20b0b"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="৭১"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#f20b0b"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="৭৫"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#f20b0b"
+                        android:background="#ffff"/>
+
+
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="চিংড়ি "
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="1dp"
+                        android:text="২"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:background="#ffff"/>
+                    <TextView
+                        android:id="@+id/text21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="২"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:background="#ffff"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/text22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="২"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:background="#ffff"
+                        android:textAlignment="center" />
+
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/text23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="কচ্ছপ"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:background="#ffff"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/text24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="২"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:background="#ffff"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/text25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="২"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:background="#ffff"
+                        android:textAlignment="center" />
+                    <TextView
+                        android:id="@+id/text26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="1dp"
+                        android:text="--"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:background="#ffff"
+                        android:textAlignment="center" />
+
+
+
+
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>
+
